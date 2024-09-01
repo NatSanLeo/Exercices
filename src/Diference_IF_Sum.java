@@ -18,16 +18,16 @@ public class Diference_IF_Sum {
         System.out.println("Enter second number");
         numberTwo = sc.nextInt();
 
-        if (numberOne >numberTwo){
-            sum=numberOne+numberTwo;
-            diference=numberOne-numberTwo;
+        if (numberOne > numberTwo) {
+            sum = numberOne + numberTwo;
+            diference = numberOne - numberTwo;
             System.out.println("El primer numero es mayor que el segundo y la suma es " + sum);
-            System.out.println("La diferencia del primer numero en comparación al segundo es: "+diference);
-        }else {
-            multiply=numberOne*numberTwo;
-            division=numberOne/numberTwo;
+            System.out.println("La diferencia del primer numero en comparación al segundo es: " + diference);
+        } else {
+            multiply = numberOne * numberTwo;
+            division = numberOne / numberTwo;
             System.out.println("El primer numero es menor que el segundo y la multiplicación es:" + multiply);
-            System.out.println("La división es: "+ division);
+            System.out.println("La división es: " + division);
         }
 
     }
