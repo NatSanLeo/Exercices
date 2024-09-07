@@ -19,6 +19,24 @@ public class Preguntas {
         System.out.println("Ingrese numero de preguntas correctas: ");
         correctQuestios = question.nextInt();
 
+        double averageCorrectQuestion = (correctQuestios * 100) / questionNumbers;
+        System.out.println(averageCorrectQuestion + "%");
+
+        if (averageCorrectQuestion >= 90) {
+            System.out.println("Tu porcetaje de preguntas correctas fue: " + averageCorrectQuestion + "%" + " Tu nivel fue: máximo");
+        } else if (averageCorrectQuestion >= 75 && averageCorrectQuestion < 90) {
+            System.out.println("Tu porcetaje de preguntas correctas fue: " + averageCorrectQuestion + "%" + " Tu nivel fue: medio");
+
+
+        } else if (averageCorrectQuestion >= 50 && averageCorrectQuestion < 75) {
+            System.out.println("Tu porcetaje de preguntas correctas fue: " + averageCorrectQuestion + "%" + " Tu nivel fue: regular");
+
+
+        } else if (averageCorrectQuestion < 50) {
+            System.out.println("Tu porcetaje de preguntas correctas fue: " + averageCorrectQuestion + "%" + " Tu nivel fue: bajo");
+
+
+        }
 
 
     }
