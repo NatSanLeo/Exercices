@@ -5,7 +5,7 @@ public class ShowAllNumbers {
         int numeroUsuario;
         int centinela = 0;
         Scanner userNumber = new Scanner(System.in);
-        System.out.println("Ingrese el numero: ");
+        System.out.println("Ingrese el numero:");
         numeroUsuario = userNumber.nextInt();
 
         while (centinela < numeroUsuario) {
