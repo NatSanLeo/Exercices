@@ -7,15 +7,16 @@ public class WhileAddAndAverage {
         int oneNumber = 0;
         int countOfNumber = 0;
         int addNumbers = 0;
+        int maxNumber=10;
 
 
-        while (countOfNumber < 10) {
+        while (countOfNumber < maxNumber) {
             countOfNumber = countOfNumber + 1;
             System.out.println("Enter ten numbers");
             oneNumber = number.nextInt();
             addNumbers = addNumbers + oneNumber;
         }
-        double average = addNumbers / countOfNumber;
+        double average = addNumbers / maxNumber;
         System.out.println("Total add is: " + addNumbers);
         System.out.println("The average is: " + average);
 
