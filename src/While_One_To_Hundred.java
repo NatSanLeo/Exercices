@@ -1,4 +1,4 @@
-public class While {
+public class While_One_To_Hundred {
     public static void main(String[] args) {
         int inicio=0;
 
