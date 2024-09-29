@@ -6,8 +6,9 @@ public class For_SumAllNumbers {
 
 
         double sum = 0;
+        int rangeOfNumber = 10;
 
-        for (int i = 0; i <= 10; i++) {
+        for (int i = 0; i <= rangeOfNumber; i++) {
             int valor = i;
 
             System.out.println("Ingrese los números");
@@ -15,7 +16,7 @@ public class For_SumAllNumbers {
             sum = sum + valor;
 
         }
-        double average = sum / 10;
+        double average = sum / rangeOfNumber;
         System.out.println("La suma de los numero es: " + sum);
         System.out.println("El promedio es: " + average);
     }
