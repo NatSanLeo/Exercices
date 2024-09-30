@@ -9,7 +9,7 @@ public class MultiplesOfNumbers {
         int numeroUsuario;
 
         for (int i = 1; i <= cantidadNumeros; i++) {
-            System.out.println("Ingrese los números");
+            System.out.println("Ingrese los números:");
             numeroUsuario = numeroIngresaUsuario.nextInt();
             if (numeroUsuario % 3 == 0) {
                 multiposTres = multiposTres + 1;
