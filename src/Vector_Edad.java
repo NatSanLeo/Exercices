@@ -20,7 +20,7 @@ public class Vector_Edad {
         System.out.println("Personas mayores de edad:");
         for(int f=0;f<nombres.length;f++) {
             if (edades[f]>=18) {
-                System.out.println(nombres[f]);
+                System.out.println(nombres[f]+": "+edades[f]);
             }
         }
     }
