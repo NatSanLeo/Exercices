@@ -73,6 +73,4 @@ public class EjercicioArrays {
         Arrays.fill(arregloUsuario, valorRellenar);
         System.out.println(Arrays.toString(arregloUsuario));
     }
-
-
 }
