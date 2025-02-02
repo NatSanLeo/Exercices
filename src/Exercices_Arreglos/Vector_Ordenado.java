@@ -15,7 +15,7 @@ public class Vector_Ordenado {
 
         getIncome();
         showIncomes();
-        orderIncomes();
+        orderedIncomes();
     }
 
     public static void getIncome() {
@@ -32,7 +32,7 @@ public class Vector_Ordenado {
         }
     }
 
-    public static void orderIncomes() {
+    public static void orderedIncomes() {
         Arrays.sort(arregloSalarios);
         System.out.println("Arreglo ordenado:");
 

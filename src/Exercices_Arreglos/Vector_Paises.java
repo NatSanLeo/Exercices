@@ -8,31 +8,33 @@ import java.util.Scanner;
 
 public class Vector_Paises {
     public static String[] arreglocountries = new String[5];
-    public  static Scanner userData = new Scanner(System.in);
+    public static Scanner userData = new Scanner(System.in);
+
     public static void main(String[] args) {
         getCountries();
         showCountries();
-        orderCountriees();
+        orderedCountriees();
     }
 
     public static void getCountries() {
-        for (int i=0; i<arreglocountries.length;i++){
+        for (int i = 0; i < arreglocountries.length; i++) {
             System.out.print("Ingresa el nombre de la ciudad:");
-            arreglocountries[i]=userData.nextLine();
+            arreglocountries[i] = userData.nextLine();
         }
     }
 
     public static void showCountries() {
         System.out.println("Arreglo Original");
-        for (int i=0; i<arreglocountries.length;i++){
-            System.out.println("Nombre de la posicion "+i+ " es: "+ arreglocountries[i]);
+        for (int i = 0; i < arreglocountries.length; i++) {
+            System.out.println("Nombre de la posicion " + i + " es: " + arreglocountries[i]);
         }
     }
-    public static void orderCountriees(){
+
+    public static void orderedCountriees() {
         System.out.println("Arreglo Ordenado");
         Arrays.sort(arreglocountries);
-        for (int i=0;i<arreglocountries.length;i++){
-            System.out.println("Ciudad en la posicion "+i+" es: "+arreglocountries[i]);
+        for (int i = 0; i < arreglocountries.length; i++) {
+            System.out.println("Ciudad en la posicion " + i + " es: " + arreglocountries[i]);
 
         }
     }
