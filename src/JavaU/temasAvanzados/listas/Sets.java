@@ -9,7 +9,7 @@ public class Sets {
     Set<String> conjunto = new TreeSet<>();
     conjunto.add("Lunes");
     conjunto.add("Lunes");
-    conjunto.add("Miercoles");
+    conjunto.add("Miércoles");
 
     conjunto.forEach(System.out::println);
 
