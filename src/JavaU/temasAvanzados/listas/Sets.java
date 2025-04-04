@@ -13,7 +13,7 @@ public class Sets {
 
     conjunto.forEach(System.out::println);
 
-    conjunto.remove("Miercoles");
+    conjunto.remove("Miércoles");
     conjunto.forEach(System.out::println);
   }
 }
