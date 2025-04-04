@@ -15,7 +15,5 @@ public class Sets {
 
     conjunto.remove("Miercoles");
     conjunto.forEach(System.out::println);
-
-
   }
 }
